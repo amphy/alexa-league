@@ -1,0 +1,17 @@
+{
+    "intents": [
+        {
+            "intent": "GetRecipeIntent",
+            "slots": [
+                {
+                    "name": "Ingredient",
+                    "type": "LITERAL"
+                }
+            ]
+        },
+        {
+            "intent": "NextRecipeIntent",
+            "slots": []
+        }
+    ]
+}
