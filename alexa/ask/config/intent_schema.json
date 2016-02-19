@@ -1,16 +1,16 @@
 {
     "intents": [
         {
-            "intent": "GetRecipeIntent",
             "slots": [
                 {
-                    "name": "Ingredient",
-                    "type": "LITERAL"
+                    "type": "AMAZON.LITERAL", 
+                    "name": "ChampionName"
                 }
-            ]
+            ], 
+            "intent": "League"
         },
         {
-            "intent": "NextRecipeIntent",
+            "intent": "AMAZON.HelpIntent",
             "slots": []
         }
     ]
